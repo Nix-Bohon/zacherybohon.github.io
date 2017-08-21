@@ -1,8 +1,8 @@
 .road-background {
     /* background: linear-gradient(to left top, #b42, #24d); */
-    background: url(assets/road.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background: url(assets/pinnacle.jpeg);
+    background-position: center;
+    background-size: 2016px;
     padding: 5px;
     /* border-top: 2px solid white; 
      border-bottom: 2px solid white; */
@@ -22,8 +22,11 @@
   }
   body {
     /* background: url(http://www.publicdomainpictures.net/pictures/200000/velka/floral-pattern-background-426.jpg); */
-    background-color: #558;
+    background-color: #101072;
     background-size: 50%;
     font-size: 20px;
+  }
+  .jumbotron-fluid {
+    padding: 5px;
   }
   
