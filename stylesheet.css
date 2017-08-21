@@ -1,0 +1,29 @@
+.road-background {
+    background: linear-gradient(to left top, #b42, #24d);
+    /* background: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14717089_885794589129_5032589903273594366_n.jpg?oh=54066b90b2d4861e9dc820d2f7e666cf&oe=598AB335); */
+    background-position: bottom;
+    background-size: cover;
+    padding: 5px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    outline: 2px solid black;
+  }
+  
+  .portfolio-card {
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+  }
+  .card-block {
+    color: #999;
+  }
+  .avatar {
+    border-radius: 50%;
+    width:200px;
+  }
+  body {
+    /* background: url(http://www.publicdomainpictures.net/pictures/200000/velka/floral-pattern-background-426.jpg); */
+    background-color: #558;
+    background-size: 50%;
+    font-size: 20px;
+  }
+  

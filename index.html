@@ -1,1 +1,112 @@
-Hello World
+<html>
+
+<head>
+    <title>
+        hello World
+    </title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/0066a6cacd.js"></script>
+    <nav id="nav" class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+        <a class="navbar-brand" href="#">Zachery Bohon</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#bio">Biography<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a name="portfolio"></a>
+    <div id="portfolio-carousel" class="road-background carousel slide portfolio-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+            <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="col-6 offset-3 portfolio-card card">
+                    <h1 class="card-block">tribute page</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-6 offset-3 portfolio-card card">
+                    <h1 class="card-block">Local Weather</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-6 offset-3 portfolio-card card">
+                    <h1 class="card-block">pomodoro timer</h1>
+                </div>
+            </div>
+        </div>
+    </div><a name="bio"></a>
+    <div class="jumbotron-fluid">
+        <div class="container">
+            <div class="row bg-faded">
+                <div class="col-md-push-6 col-md-6 offset-md-0 col-4 offset-4">
+                    <img class="avatar" src="https://scontent-ort2-1.xx.fbcdn.net/v/t31.0-8/s960x960/17758255_926835273269_4097563311417044703_o.jpg?oh=a67ec985135f4f4abe914c7c9c5f4709&oe=59943314">
+                </div>
+                <div class="col-md-pull-6 col-md-6 flex-md-first mx-auto my-auto">
+                    <h1>
+                        Hello world
+                    </h1>
+                    <p>
+                        <ul>
+                            <li>some</li>
+                            <li>one</li>
+                            <li>told</li>
+                            <li>me</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <a name="contact"></a>
+    <div class="jumbotron-fluid">
+        <div id="intro" class="container bg-faded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 mx-auto">
+                        hello
+                    </div>
+                    <div class="col-6 my-auto mx-auto">
+                        <div class="btn btn-outline-primary btn-block text-left" href="#">
+                            <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                        </div>
+                        <div class="btn btn-outline-primary btn-block text-left" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+                        </div>
+                        <div class="btn btn-outline-primary btn-block text-left" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+                        </div>
+                        <div class="btn btn-outline-primary btn-block text-left" href="#">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> email
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
