@@ -1,12 +1,12 @@
 .road-background {
-    background: linear-gradient(to left top, #b42, #24d);
-    /* background: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/14717089_885794589129_5032589903273594366_n.jpg?oh=54066b90b2d4861e9dc820d2f7e666cf&oe=598AB335); */
+    /* background: linear-gradient(to left top, #b42, #24d); */
+    background: url(assets/road.jpg);
     background-position: bottom;
     background-size: cover;
     padding: 5px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    outline: 2px solid black;
+    /* border-top: 2px solid white; 
+     border-bottom: 2px solid white; */
+    /* outline: 2px solid #333; */
   }
   
   .portfolio-card {
